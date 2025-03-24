@@ -41,4 +41,8 @@
     alsa.support32Bit = true;
     pulse.enable = true;
   };
+  services.shellhub-agent = {
+    enable = true;
+    tenantId = "fc19fa78-0a7b-4905-9596-01b7b5c2cc9e";
+  };
 }
