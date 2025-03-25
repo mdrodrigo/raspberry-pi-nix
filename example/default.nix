@@ -45,4 +45,5 @@
     enable = true;
     tenantId = "fc19fa78-0a7b-4905-9596-01b7b5c2cc9e";
   };
+  nix.settings.experimental-features = lib.mkDefault "nix-command flakes";
 }
